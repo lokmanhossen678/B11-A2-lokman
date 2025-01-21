@@ -1,0 +1,81 @@
+/*Base styling*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*Header styling*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo,*/
+    padding: 10px 20px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 6px whitesmoke;
+}
+
+.logo{
+    display: flex; /* inline layout for image and heading*/
+    align-items: center;
+    gap: 10px; /*Space between image and heading*/
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.logo h2{
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Navigation styling*/
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; /* Center the nav items*/
+}
+
+nav ul{
+    list-style: none;
+    display: flex; /*Inline list items*/
+    gap: 20px; /*Space between items*/
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    font-size: 16px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s ease;
+}
+.red{
+    color: red;
+}
+
+nav ul li a:hover{
+    color: aquamarine;
+}
+
+/*Button styling */
+.header-btn{
+    padding: 10px 20px;
+    background: rgb(30, 96, 236);
+    color: beige;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.header-btn:hover{
+    background: goldenrod;
+}
