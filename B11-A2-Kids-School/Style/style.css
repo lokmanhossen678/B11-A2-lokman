@@ -3,6 +3,9 @@
     margin: 0px;
     padding:0px
 }
+.border{
+    border-bottom: 1px solid black;
+}
 body{
     margin: 0;
     padding: 0;
