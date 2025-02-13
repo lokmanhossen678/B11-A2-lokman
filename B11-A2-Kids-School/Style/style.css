@@ -62,7 +62,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: blue;
+    color: rgb(14, 14, 102);
     transition: color 0.3s ease;
 }
 .red{
@@ -90,6 +90,9 @@ height: 70%;
 }
 .empowring-red{
     color: #fea301;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .vision-yellow{
     color: #01acfd;
@@ -133,6 +136,8 @@ main{
 }
 #hero{
     background-color: #f7f7f7;
+    height: 400px;
+    gap: 20px;
    
 }
 .hero_container{
@@ -140,9 +145,10 @@ main{
     flex-direction: row;
 
 }
-#hero .hero_containt{
+.hero_containt{
     margin: 0 auto;
     text-align: center;
+    gap: 20px;
     
     
 }
