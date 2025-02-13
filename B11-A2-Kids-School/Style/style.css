@@ -164,6 +164,14 @@ main h1{
     display: flex;
 }
 
+.ourStories_box_container{
+    display: flex;
+}
+.ourStori_box2{
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (max-width: 768px){
     body{
         background-color: lightblue;
